@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Richard Guay</string>
+	<key>description</key>
+	<string>This takes the text from Eloquent to make the type of formatting that I like to paste into documents.</string>
+	<key>min_required</key>
+	<string>7.0</string>
+	<key>name</key>
+	<string>Fix Bible Text</string>
+	<key>revision</key>
+	<integer>0</integer>
+	<key>sub_list</key>
+	<array>
+		<dict>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.applycleaner</string>
+					<key>parameters</key>
+					<dict>
+						<key>cleaner_name</key>
+						<string>#REMOVE_HYPERLINKING_FROM_TEXT</string>
+						<key>cleaner_name_hint</key>
+						<string>Remove Hyperlinks from Text</string>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string>This will remove hypertext links that the Bible program puts into the verses.</string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.applycleaner</string>
+					<key>parameters</key>
+					<dict>
+						<key>cleaner_name</key>
+						<string>#MAKE_PLAIN_TEXT</string>
+						<key>cleaner_name_hint</key>
+						<string>Convert to Plain Text</string>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string>Make it plain Text. Easier to work with when pasting.</string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.find</string>
+					<key>parameters</key>
+					<dict>
+						<key>find</key>
+						<string>\d</string>
+						<key>granularity</key>
+						<integer>0</integer>
+						<key>ignore_case</key>
+						<integer>1</integer>
+						<key>multiline</key>
+						<false/>
+						<key>regex_flags</key>
+						<integer>16</integer>
+						<key>replace</key>
+						<string></string>
+						<key>type</key>
+						<integer>1</integer>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string>Remove the verse numbers.</string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.find</string>
+					<key>parameters</key>
+					<dict>
+						<key>find</key>
+						<string>\n|\r</string>
+						<key>granularity</key>
+						<integer>0</integer>
+						<key>ignore_case</key>
+						<integer>1</integer>
+						<key>multiline</key>
+						<false/>
+						<key>regex_flags</key>
+						<integer>16</integer>
+						<key>replace</key>
+						<string></string>
+						<key>type</key>
+						<integer>1</integer>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string>Make it all one line.</string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.applycleaner</string>
+					<key>parameters</key>
+					<dict>
+						<key>cleaner_name</key>
+						<string>#REMOVE_EXTRA_SPACES</string>
+						<key>cleaner_name_hint</key>
+						<string>Remove Extra Spaces</string>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string>Get rid of the extra spaces.</string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>main</string>
+			<key>uuid</key>
+			<string>0DACAFBE-59B9-4573-9070-C00C78C15D25</string>
+		</dict>
+	</array>
+	<key>user_version</key>
+	<string></string>
+	<key>uuid</key>
+	<string>CB16C70B-DDEA-4621-8398-44E3A65B2D10</string>
+	<key>version</key>
+	<integer>4</integer>
+</dict>
+</plist>

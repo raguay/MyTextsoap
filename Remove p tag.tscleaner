@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Richard Guay</string>
+	<key>description</key>
+	<string></string>
+	<key>min_required</key>
+	<string>7.0</string>
+	<key>name</key>
+	<string>Remove p tag - Envato</string>
+	<key>revision</key>
+	<integer>0</integer>
+	<key>sub_list</key>
+	<array>
+		<dict>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.find</string>
+					<key>parameters</key>
+					<dict>
+						<key>find</key>
+						<string>\&lt;\/*p\&gt;</string>
+						<key>granularity</key>
+						<integer>0</integer>
+						<key>ignore_case</key>
+						<false/>
+						<key>multiline</key>
+						<false/>
+						<key>replace</key>
+						<string></string>
+						<key>type</key>
+						<integer>1</integer>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string></string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>main</string>
+			<key>uuid</key>
+			<string>AAA57420-498A-4231-AFC5-F4B4031EA2BE</string>
+		</dict>
+	</array>
+	<key>user_version</key>
+	<string></string>
+	<key>uuid</key>
+	<string>DAB0F9AD-D9BF-46A8-A642-B1FA6B465C7D</string>
+	<key>version</key>
+	<integer>4</integer>
+</dict>
+</plist>

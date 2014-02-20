@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Richard Guay</string>
+	<key>description</key>
+	<string></string>
+	<key>min_required</key>
+	<string>7.0</string>
+	<key>name</key>
+	<string>Markdown Linklist to HTML</string>
+	<key>revision</key>
+	<integer>0</integer>
+	<key>sub_list</key>
+	<array>
+		<dict>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.applycleaner.static</string>
+					<key>parameters</key>
+					<dict>
+						<key>cleaner_name</key>
+						<string>#MARKDOWN_TEXT</string>
+						<key>cleaner_name_hint</key>
+						<string>Markdown Text</string>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string></string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.find</string>
+					<key>parameters</key>
+					<dict>
+						<key>find</key>
+						<string>&lt;h(3|2)[^&gt;]*&gt;</string>
+						<key>granularity</key>
+						<integer>0</integer>
+						<key>ignore_case</key>
+						<false/>
+						<key>multiline</key>
+						<false/>
+						<key>replace</key>
+						<string>&lt;h3&gt;</string>
+						<key>type</key>
+						<integer>1</integer>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string></string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>main</string>
+			<key>uuid</key>
+			<string>D22E979E-344F-4CAC-9C85-EB8B0FF60878</string>
+		</dict>
+	</array>
+	<key>user_version</key>
+	<string></string>
+	<key>uuid</key>
+	<string>DE3DB3AF-5630-43C0-9AF4-2D3358827D74</string>
+	<key>version</key>
+	<integer>4</integer>
+</dict>
+</plist>

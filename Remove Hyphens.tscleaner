@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Richard Guay</string>
+	<key>description</key>
+	<string></string>
+	<key>min_required</key>
+	<string>7.0</string>
+	<key>name</key>
+	<string>Remove Hyphens</string>
+	<key>revision</key>
+	<integer>0</integer>
+	<key>sub_list</key>
+	<array>
+		<dict>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.find</string>
+					<key>parameters</key>
+					<dict>
+						<key>find</key>
+						<string>-</string>
+						<key>granularity</key>
+						<integer>0</integer>
+						<key>ignore_case</key>
+						<false/>
+						<key>multiline</key>
+						<false/>
+						<key>replace</key>
+						<string></string>
+						<key>type</key>
+						<integer>0</integer>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string></string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.applycleaner.static</string>
+					<key>parameters</key>
+					<dict>
+						<key>cleaner_name</key>
+						<string>#REMOVE_EXTRA_SPACES</string>
+						<key>cleaner_name_hint</key>
+						<string>Remove Extra Spaces</string>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string></string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>main</string>
+			<key>uuid</key>
+			<string>0ED89AB1-AB2D-4FE2-87EF-2794A616BAF8</string>
+		</dict>
+	</array>
+	<key>user_version</key>
+	<string></string>
+	<key>uuid</key>
+	<string>1FECBDC8-7712-4D5C-BC79-0439F0D08929</string>
+	<key>version</key>
+	<integer>4</integer>
+</dict>
+</plist>

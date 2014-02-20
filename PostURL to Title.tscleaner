@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Richard Guay</string>
+	<key>description</key>
+	<string></string>
+	<key>min_required</key>
+	<string>7.0</string>
+	<key>name</key>
+	<string>PostURL to Title</string>
+	<key>revision</key>
+	<integer>0</integer>
+	<key>sub_list</key>
+	<array>
+		<dict>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.find</string>
+					<key>parameters</key>
+					<dict>
+						<key>find</key>
+						<string>-</string>
+						<key>granularity</key>
+						<integer>0</integer>
+						<key>ignore_case</key>
+						<integer>1</integer>
+						<key>multiline</key>
+						<false/>
+						<key>replace</key>
+						<string> </string>
+						<key>type</key>
+						<integer>0</integer>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string></string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>collapsed</key>
+					<false/>
+					<key>enabled</key>
+					<true/>
+					<key>identifier</key>
+					<string>textsoap.text.titlecase</string>
+					<key>parameters</key>
+					<dict>
+						<key>handle_vscase</key>
+						<false/>
+						<key>small_words_append</key>
+						<true/>
+						<key>small_words_list</key>
+						<string></string>
+						<key>special_words_append</key>
+						<true/>
+						<key>special_words_list</key>
+						<string>HTML CSS SQL </string>
+					</dict>
+					<key>show_note</key>
+					<false/>
+					<key>user_note</key>
+					<string></string>
+					<key>user_size</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>main</string>
+			<key>uuid</key>
+			<string>AD248D7B-5D06-48E7-85CF-AA12E5B83F04</string>
+		</dict>
+	</array>
+	<key>user_version</key>
+	<string></string>
+	<key>uuid</key>
+	<string>39DECE4B-E874-4533-AAFF-F70B1AF7F56C</string>
+	<key>version</key>
+	<integer>4</integer>
+</dict>
+</plist>
